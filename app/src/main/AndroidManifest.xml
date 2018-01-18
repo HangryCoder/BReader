@@ -19,6 +19,8 @@
 
         <activity android:name=".activity.CategoryActivity" />
 
+        <activity android:name=".activity.BooksActivity" />
+
     </application>
 
 </manifest>

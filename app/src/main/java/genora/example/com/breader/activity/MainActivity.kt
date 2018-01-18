@@ -6,6 +6,8 @@ import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import genora.example.com.breader.R
 import genora.example.com.breader.adapter.PublisherAdapter
+import genora.example.com.breader.model.Book
+import genora.example.com.breader.model.Category
 import genora.example.com.breader.model.Publisher
 import genora.example.com.breader.utils.Utils
 import kotlinx.android.synthetic.main.recycler_view_layout.*
@@ -17,13 +19,13 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var linearLayoutManager: LinearLayoutManager
     private lateinit var publisherAdapter: PublisherAdapter
-    private var publisherList: ArrayList<Publisher> = ArrayList<Publisher>()
+    private var publisherList: ArrayList<Publisher> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        publisherList = parseDetailsJSON(publisherList)//addNewPublishers()
+        publisherList = parseDetailsJSON(publisherList)
 
         publisherAdapter = PublisherAdapter(this, publisherList)
 
@@ -39,10 +41,46 @@ class MainActivity : AppCompatActivity() {
 
             for (i in 0 until detailsArray.length()) {
                 val detailsJSONObject: JSONObject = detailsArray.getJSONObject(i)
+
+                val categoryJSONArray: JSONArray = detailsJSONObject.getJSONArray("category")
+                val categoryList: ArrayList<Category> = ArrayList()
+
+                for (j in 0 until categoryJSONArray.length()) {
+                    val categoryJSONObject: JSONObject = categoryJSONArray.getJSONObject(j)
+
+                    val booksJSONArrayList = categoryJSONObject.getJSONArray("books")
+                    val booksList: ArrayList<Book> = ArrayList()
+
+                    for (k in 0 until booksJSONArrayList.length()) {
+                        val booksJSONObject = booksJSONArrayList.getJSONObject(k)
+
+                        val books = Book(booksJSONObject.getInt("book_id"),
+                                booksJSONObject.getString("book_name"),
+                                booksJSONObject.getString("frontcover_path"),
+                                booksJSONObject.getInt("count_best_seller"),
+                                booksJSONObject.getInt("featured"),
+                                booksJSONObject.getString("product_key"),
+                                booksJSONObject.getString("price"),
+                                booksJSONObject.getString("pdf_path"),
+                                booksJSONObject.getString("sample_copy_path"))
+
+                        booksList.add(books)
+                    }
+
+                    val category = Category(categoryJSONObject.getInt("cat_id"),
+                            categoryJSONObject.getString("cat_name"),
+                            categoryJSONObject.getString("icon50"),
+                            categoryJSONObject.getLong("cat_timestamp"),
+                            booksList)
+
+                    categoryList.add(category)
+                }
+
                 val publisher = Publisher(detailsJSONObject.getInt("pub_id"),
                         detailsJSONObject.getString("pub_name"),
                         detailsJSONObject.getString("picon"),
-                        detailsJSONObject.getString("pub_timestamp"))
+                        detailsJSONObject.getString("pub_timestamp"),
+                        categoryList)
 
                 publishList.add(publisher)
             }
@@ -52,35 +90,5 @@ class MainActivity : AppCompatActivity() {
         }
 
         return publishList
-    }
-
-    private fun addNewPublishers(): ArrayList<Publisher> {
-        var publisher: Publisher
-
-        publisher = Publisher(1, "Sonia W", "blah blah", "11-11-2018")
-        publisherList.add(publisher)
-
-        publisher = Publisher(1, "Shilpa W", "blah blah", "11-11-2018")
-        publisherList.add(publisher)
-
-        publisher = Publisher(1, "Krupa Bhat", "blah blah", "11-11-2018")
-        publisherList.add(publisher)
-
-        publisher = Publisher(1, "Stephen G", "blah blah", "11-11-2018")
-        publisherList.add(publisher)
-
-        publisher = Publisher(1, "Suhail S", "blah blah", "11-11-2018")
-        publisherList.add(publisher)
-
-        publisher = Publisher(1, "Saisha N", "blah blah", "11-11-2018")
-        publisherList.add(publisher)
-
-        publisher = Publisher(1, "Vaishali S", "blah blah", "11-11-2018")
-        publisherList.add(publisher)
-
-        publisher = Publisher(1, "Lax N", "blah blah", "11-11-2018")
-        publisherList.add(publisher)
-
-        return publisherList
     }
 }
