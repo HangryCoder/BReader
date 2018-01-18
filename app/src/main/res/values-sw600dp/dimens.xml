@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="publisher_icon">100dp</dimen>
+    <dimen name="publisher_name_text_size">25sp</dimen>
+    <dimen name="publisher_timestamp_text_size">18sp</dimen>
+</resources>

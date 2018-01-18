@@ -14,16 +14,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/publishers"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <include
-        android:id="@+id/recycler_main_layout"
-        layout="@layout/recycler_view_layout"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
