@@ -7,7 +7,11 @@ import android.support.v7.widget.RecyclerView
 import genora.example.com.breader.R
 import genora.example.com.breader.adapter.PublisherAdapter
 import genora.example.com.breader.model.Publisher
+import genora.example.com.breader.utils.Utils
 import kotlinx.android.synthetic.main.recycler_view_layout.*
+import org.json.JSONArray
+import org.json.JSONException
+import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,13 +23,35 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        publisherList = addNewPublishers()
+        publisherList = parseDetailsJSON(publisherList)//addNewPublishers()
 
         publisherAdapter = PublisherAdapter(this, publisherList)
 
         linearLayoutManager = LinearLayoutManager(this)
         recycler_view.layoutManager = linearLayoutManager
         recycler_view.adapter = publisherAdapter
+    }
+
+    private fun parseDetailsJSON(publishList: ArrayList<Publisher>): ArrayList<Publisher> {
+        try {
+            val jsonObject = JSONObject(Utils.loadJSONFromAsset(this))
+            val detailsArray: JSONArray = jsonObject.getJSONArray("Details")
+
+            for (i in 0 until detailsArray.length()) {
+                val detailsJSONObject: JSONObject = detailsArray.getJSONObject(i)
+                val publisher = Publisher(detailsJSONObject.getInt("pub_id"),
+                        detailsJSONObject.getString("pub_name"),
+                        detailsJSONObject.getString("picon"),
+                        detailsJSONObject.getString("pub_timestamp"))
+
+                publishList.add(publisher)
+            }
+
+        } catch (jsonException: JSONException) {
+            jsonException.printStackTrace()
+        }
+
+        return publishList
     }
 
     private fun addNewPublishers(): ArrayList<Publisher> {

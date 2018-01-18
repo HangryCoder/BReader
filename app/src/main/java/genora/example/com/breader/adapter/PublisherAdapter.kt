@@ -1,12 +1,15 @@
 package genora.example.com.breader.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
 import genora.example.com.breader.R
+import genora.example.com.breader.activity.CategoryActivity
+import genora.example.com.breader.model.Category
 import genora.example.com.breader.model.Publisher
 import kotlinx.android.synthetic.main.publisher_item_layout.view.*
 
@@ -25,13 +28,25 @@ class PublisherAdapter(private val context: Context, private var publisherList: 
         val publisher = publisherList[position]
         holder?.itemView?.publisher_name?.text = publisher.publisher_name
         holder?.itemView?.publisher_timestamp?.text = publisher.publisher_timestamp
-       // Glide.with(context).load(publisher.publisher_icon)
-         //       .into(holder?.itemView?.publisher_icon!!)
+        // Glide.with(context).load(publisher.publisher_icon)
+        //       .into(holder?.itemView?.publisher_icon!!)
     }
 
     override fun getItemCount() = publisherList.size
 
-    class PublisherHolder(itemView: View?) : RecyclerView.ViewHolder(itemView) {
-        // private var view = itemView
+    class PublisherHolder(itemView: View?) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
+
+        private var view = itemView
+
+        init {
+            view?.setOnClickListener(this)
+        }
+
+        override fun onClick(v: View?) {
+            val context = v?.context
+            val intent = Intent(context, CategoryActivity::class.java)
+            context?.startActivity(intent)
+        }
+
     }
 }

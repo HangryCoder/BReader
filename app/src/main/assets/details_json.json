@@ -1,0 +1,1723 @@
+﻿{
+	"Details": [{
+		"pub_id": "1",
+		"pub_name": "D & D Resources Ltd",
+		"picon": "publisher_pics37119SL.jpg",
+		"pub_timestamp": "1455150880",
+		"category": [{
+			"cat_id": "46",
+			"cat_name": "Year 13",
+			"icon50": "category_pics46.png",
+			"cat_timestamp": "1453271870",
+			"books": [{
+				"book_id": "242",
+				"book_name": "91579 Integration (2017)",
+				"frontcover_path": "Book_cover_6824236gQ.jpg",
+				"count_best_seller": "12",
+				"featured": "0",
+				"product_key": "com.irite.book_242",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_6824236gQ_file.pdf",
+				"sample_copy_path": "Sample_6824236gQ_file.pdf"
+			}, {
+				"book_id": "253",
+				"book_name": "91586 Probability Distributions (2017)",
+				"frontcover_path": "Book_cover_8325384EZ.jpg",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "com.irite.book_253",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_8325384EZ_file.pdf",
+				"sample_copy_path": "Sample_8325384EZ_file.pdf"
+			}, {
+				"book_id": "240",
+				"book_name": "91577 Complex Numbers (2017)",
+				"frontcover_path": "Book_cover_7824084fn.jpg",
+				"count_best_seller": "11",
+				"featured": "0",
+				"product_key": "com.irite.book_240",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_7824084fn_file.pdf",
+				"sample_copy_path": "Sample_7824084fn_file.pdf"
+			}, {
+				"book_id": "254",
+				"book_name": "91584 Statistical Reports (2017)",
+				"frontcover_path": "Book_cover_6325451JS.jpg",
+				"count_best_seller": "4",
+				"featured": "0",
+				"product_key": "com.irite.book_254",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_6325451JS_file.pdf",
+				"sample_copy_path": "Sample_6325451JS_file.pdf"
+			}, {
+				"book_id": "241",
+				"book_name": "91578 Differentiation (2017)",
+				"frontcover_path": "Book_cover_9424118IJ.jpg",
+				"count_best_seller": "13",
+				"featured": "0",
+				"product_key": "com.irite.book_241",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9424118IJ_file.pdf",
+				"sample_copy_path": "Sample_9424118IJ_file.pdf"
+			}, {
+				"book_id": "252",
+				"book_name": "91585 Probability (2017)",
+				"frontcover_path": "Book_cover_1825278Bc.jpg",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "com.irite.book_252",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1825278Bc_file.pdf",
+				"sample_copy_path": "Sample_1825278Bc_file.pdf"
+			}]
+		}, {
+			"cat_id": "68",
+			"cat_name": "D & D Past Editions",
+			"icon50": "category_pics216897tR.jpg",
+			"cat_timestamp": "1461111722",
+			"books": [{
+				"book_id": "144",
+				"book_name": "91262 Calculus Methods",
+				"frontcover_path": "Book_cover_2714474cs.jpg",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "com.book_144",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_144_file.pdf",
+				"sample_copy_path": "Sample_144_file.pdf"
+			}, {
+				"book_id": "205",
+				"book_name": "91577 Complex Numbers (2016)",
+				"frontcover_path": "Book_cover_3520544YI.jpg",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "com.irite.book_205",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_7220516xg_file.pdf",
+				"sample_copy_path": "Sample_7220516xg_file.pdf"
+			}, {
+				"book_id": "142",
+				"book_name": "91037 Chance and Data",
+				"frontcover_path": "Book_cover_6214297bW.jpg",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "com.book_142",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_142_file.pdf",
+				"sample_copy_path": "Sample_142_file.pdf"
+			}, {
+				"book_id": "203",
+				"book_name": "91262 Calculus Methods (2016)",
+				"frontcover_path": "Book_cover_8120317uv.jpg",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "com.irite.book_203",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1620357uk_file.pdf",
+				"sample_copy_path": "Sample_1620357uk_file.pdf"
+			}, {
+				"book_id": "149",
+				"book_name": "91031 Geometric Reasoning",
+				"frontcover_path": "Book_cover_4914929UN.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.book_149",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_149_file.pdf",
+				"sample_copy_path": "Sample_149_file.pdf"
+			}, {
+				"book_id": "140",
+				"book_name": "91027 Algebraic Methods",
+				"frontcover_path": "Book_cover_8314099jO.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.book_140",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_140_file.pdf",
+				"sample_copy_path": "Sample_140_file.pdf"
+			}, {
+				"book_id": "211",
+				"book_name": "91586 Probability Distributions (2016)",
+				"frontcover_path": "Book_cover_6621194Vi.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_211",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_5021199Rt_file.pdf",
+				"sample_copy_path": "Sample_5021199Rt_file.pdf"
+			}, {
+				"book_id": "201",
+				"book_name": "91037 Chance and Data (2016)",
+				"frontcover_path": "Book_cover_6020139sG.jpg",
+				"count_best_seller": "8",
+				"featured": "0",
+				"product_key": "com.irite.book_201",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_4920132LR_file.pdf",
+				"sample_copy_path": "Sample_4920132LR_file.pdf"
+			}, {
+				"book_id": "147",
+				"book_name": "91578 Differentiation",
+				"frontcover_path": "Book_cover_6114781DM.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.book_147",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_147_file.pdf",
+				"sample_copy_path": "Sample_147_file.pdf"
+			}, {
+				"book_id": "198",
+				"book_name": "91028 Tables, Equations and Graphs (2016)",
+				"frontcover_path": "Book_cover_1919879Pd.jpg",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "com.irite.book_198",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_4019820jg_file.pdf",
+				"sample_copy_path": "Sample_4019820jg_file.pdf"
+			}, {
+				"book_id": "138",
+				"book_name": "91585 Probability",
+				"frontcover_path": "Book_cover_1013813Ox.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.book_138",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_138_file.pdf",
+				"sample_copy_path": "Sample_138_file.pdf"
+			}, {
+				"book_id": "208",
+				"book_name": "91584 Statistical Reports (2016)",
+				"frontcover_path": "Book_cover_1420813BS.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.irite.book_208",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3920870Hk_file.pdf",
+				"sample_copy_path": "Sample_3920870Hk_file.pdf"
+			}, {
+				"book_id": "145",
+				"book_name": "91267 Probability Methods",
+				"frontcover_path": "Book_cover_5814563hy.jpg",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "com.book_145",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_145_file.pdf",
+				"sample_copy_path": "Sample_145_file.pdf"
+			}, {
+				"book_id": "206",
+				"book_name": "91578 Differentiation (2016)",
+				"frontcover_path": "Book_cover_3520641eN.jpg",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "com.irite.book_206",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3920665dW_file.pdf",
+				"sample_copy_path": "Sample_3920665dW_file.pdf"
+			}, {
+				"book_id": "143",
+				"book_name": "91261 Algebraic Methods",
+				"frontcover_path": "Book_cover_3414331eI.jpg",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "com.book_143",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_143_file.pdf",
+				"sample_copy_path": "Sample_143_file.pdf"
+			}, {
+				"book_id": "150",
+				"book_name": "Preparation for CAT (PFC)",
+				"frontcover_path": "Book_cover_9815038XC.jpg",
+				"count_best_seller": "14",
+				"featured": "0",
+				"product_key": "com.book_150",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_150_file.pdf",
+				"sample_copy_path": "Sample_150_file.pdf"
+			}, {
+				"book_id": "204",
+				"book_name": "91267 Probability Methods (2016)",
+				"frontcover_path": "Book_cover_3020482Zy.jpg",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "com.irite.book_204",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_5720462nf_file.pdf",
+				"sample_copy_path": "Sample_5720462nf_file.pdf"
+			}, {
+				"book_id": "141",
+				"book_name": "91028 Tables, Equations and Graphs",
+				"frontcover_path": "Book_cover_8614185Ya.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.book_141",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_141_file.pdf",
+				"sample_copy_path": "Sample_141_file.pdf"
+			}, {
+				"book_id": "202",
+				"book_name": "91261 Algebraic Methods (2016)",
+				"frontcover_path": "Book_cover_3820252xI.jpg",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "com.irite.book_202",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_5520248yO_file.pdf",
+				"sample_copy_path": "Sample_5520248yO_file.pdf"
+			}, {
+				"book_id": "148",
+				"book_name": "91579 Integration",
+				"frontcover_path": "Book_cover_6614880Oc.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.book_148",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_148_file.pdf",
+				"sample_copy_path": "Sample_148_file.pdf"
+			}, {
+				"book_id": "139",
+				"book_name": "91586 Probability Distributions",
+				"frontcover_path": "Book_cover_5113989vV.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.book_139",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_139_file.pdf",
+				"sample_copy_path": "Sample_139_file.pdf"
+			}, {
+				"book_id": "210",
+				"book_name": "91585 Probability (2016)",
+				"frontcover_path": "Book_cover_8721072di.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_210",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_5521062re_file.pdf",
+				"sample_copy_path": "Sample_5521062re_file.pdf"
+			}, {
+				"book_id": "200",
+				"book_name": "91031 Geometric Reasoning (2016)",
+				"frontcover_path": "Book_cover_7920073oO.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.irite.book_200",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_7220067kM_file.pdf",
+				"sample_copy_path": "Sample_7220067kM_file.pdf"
+			}, {
+				"book_id": "146",
+				"book_name": "91577 Complex Numbers",
+				"frontcover_path": "Book_cover_1614646Ld.jpg",
+				"count_best_seller": "4",
+				"featured": "0",
+				"product_key": "com.book_146",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_146_file.pdf",
+				"sample_copy_path": "Sample_146_file.pdf"
+			}, {
+				"book_id": "197",
+				"book_name": "91027 Algebraic Methods (2016)",
+				"frontcover_path": "Book_cover_5119774YO.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.irite.book_197",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_8419763qh_file.pdf",
+				"sample_copy_path": "Sample_8419763qh_file.pdf"
+			}, {
+				"book_id": "137",
+				"book_name": "91584 Statistical Reports",
+				"frontcover_path": "Book_cover_5213717oC.jpg",
+				"count_best_seller": "2",
+				"featured": "0",
+				"product_key": "com.book_137",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_137_file.pdf",
+				"sample_copy_path": "Sample_137_file.pdf"
+			}, {
+				"book_id": "207",
+				"book_name": "91579 Integration (2016)",
+				"frontcover_path": "Book_cover_8620728KG.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_207",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_7020763Pj_file.pdf",
+				"sample_copy_path": "Sample_7020763Pj_file.pdf"
+			}]
+		}]
+	}, {
+		"pub_id": "2",
+		"pub_name": "NuLake Ltd",
+		"picon": "publisher_pics31276wE.jpg",
+		"pub_timestamp": "1455151239",
+		"category": [{
+			"cat_id": "42",
+			"cat_name": "Year 09",
+			"icon50": "category_pics42.jpg",
+			"cat_timestamp": "1480828414",
+			"books": [{
+				"book_id": "77",
+				"book_name": "Mathematics Homework Book MiNZC 4 (145 pages)",
+				"frontcover_path": "Book_cover_77.jpg",
+				"count_best_seller": "13",
+				"featured": "0",
+				"product_key": "NUL143",
+				"price": "$ 8.99",
+				"pdf_path": "book_name_77_file.pdf",
+				"sample_copy_path": "Sample_77_file.pdf"
+			}, {
+				"book_id": "75",
+				"book_name": "Mathematics Homework Book MiNZC 3/4 (145 pages)",
+				"frontcover_path": "Book_cover_75.jpg",
+				"count_best_seller": "12",
+				"featured": "0",
+				"product_key": "NUL142",
+				"price": "$ 8.99",
+				"pdf_path": "book_name_75_file.pdf",
+				"sample_copy_path": "Sample_75_file.pdf"
+			}, {
+				"book_id": "192",
+				"book_name": "Year 9 Mathematics Workbook (2016)",
+				"frontcover_path": "Book_cover_1719244fA.jpg",
+				"count_best_seller": "19",
+				"featured": "0",
+				"product_key": "com.irite.book_192",
+				"price": "$ 14.99",
+				"pdf_path": "book_name_1619271Ee_file.pdf",
+				"sample_copy_path": "Sample_1619271Ee_file.pdf"
+			}]
+		}, {
+			"cat_id": "43",
+			"cat_name": "Year 10",
+			"icon50": "category_pics43.jpg",
+			"cat_timestamp": "1480826845",
+			"books": [{
+				"book_id": "191",
+				"book_name": "Year 10 Mathematics Workbook (2016)",
+				"frontcover_path": "Book_cover_7619182MB.jpg",
+				"count_best_seller": "21",
+				"featured": "0",
+				"product_key": "com.irite.book_191",
+				"price": "$ 14.99",
+				"pdf_path": "book_name_7619182MB_file.pdf",
+				"sample_copy_path": "Sample_7619182MB_file.pdf"
+			}, {
+				"book_id": "115",
+				"book_name": "Mathematics Homework Book MiNZC 5 (145 pages)",
+				"frontcover_path": "Book_cover_115.jpg",
+				"count_best_seller": "8",
+				"featured": "0",
+				"product_key": "NUL144",
+				"price": "$ 8.99",
+				"pdf_path": "book_name_115_file.pdf",
+				"sample_copy_path": "Sample_115_file.pdf"
+			}]
+		}, {
+			"cat_id": "44",
+			"cat_name": "Year 11",
+			"icon50": "category_pics44.jpg",
+			"cat_timestamp": "1453271825",
+			"books": [{
+				"book_id": "151",
+				"book_name": "1.1 Numeric Reasoning (2016)",
+				"frontcover_path": "Book_cover_8215179UE.jpg",
+				"count_best_seller": "14",
+				"featured": "0",
+				"product_key": "com.irite.book_151",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_8215179UE_file.pdf",
+				"sample_copy_path": "Sample_8215179UE_file.pdf"
+			}, {
+				"book_id": "160",
+				"book_name": "1.10 Multivariate Data (2016)",
+				"frontcover_path": "Book_cover_9916023lS.jpg",
+				"count_best_seller": "11",
+				"featured": "0",
+				"product_key": "com.irite.book_160",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9916023lS_file.pdf",
+				"sample_copy_path": "Sample_9916023lS_file.pdf"
+			}, {
+				"book_id": "158",
+				"book_name": "1.8 Geometric Representations (2016)",
+				"frontcover_path": "Book_cover_3215889As.jpg",
+				"count_best_seller": "4",
+				"featured": "0",
+				"product_key": "com.irite.book_158",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3215889As_file.pdf",
+				"sample_copy_path": "Sample_3215889As_file.pdf"
+			}, {
+				"book_id": "156",
+				"book_name": "1.6 Geometric Reasoning (2016)",
+				"frontcover_path": "Book_cover_6715675ZY.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_156",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_6715675ZY_file.pdf",
+				"sample_copy_path": "Sample_6715675ZY_file.pdf"
+			}, {
+				"book_id": "154",
+				"book_name": "1.4 Linear Algebra (2016)",
+				"frontcover_path": "Book_cover_5515466nh.jpg",
+				"count_best_seller": "14",
+				"featured": "0",
+				"product_key": "com.irite.book_154",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_5515466nh_file.pdf",
+				"sample_copy_path": "Sample_5515466nh_file.pdf"
+			}, {
+				"book_id": "163",
+				"book_name": "1.13 Elements of Chance (2016)",
+				"frontcover_path": "Book_cover_7916376PL.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_163",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_7916376PL_file.pdf",
+				"sample_copy_path": "Sample_7916376PL_file.pdf"
+			}, {
+				"book_id": "152",
+				"book_name": "1.2 Algebraic Methods (2016)",
+				"frontcover_path": "Book_cover_2715280Qd.jpg",
+				"count_best_seller": "17",
+				"featured": "0",
+				"product_key": "com.irite.book_152",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_2715280Qd_file.pdf",
+				"sample_copy_path": "Sample_2715280Qd_file.pdf"
+			}, {
+				"book_id": "161",
+				"book_name": "1.11 Bivariate Data (2016)",
+				"frontcover_path": "Book_cover_3916144Ji.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_161",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3916144Ji_file.pdf",
+				"sample_copy_path": "Sample_3916144Ji_file.pdf"
+			}, {
+				"book_id": "159",
+				"book_name": "1.9 Transformation Geometry (2016)",
+				"frontcover_path": "Book_cover_1515994yk.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "com.irite.book_159",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1515994yk_file.pdf",
+				"sample_copy_path": "Sample_1515994yk_file.pdf"
+			}, {
+				"book_id": "157",
+				"book_name": "1.7 Right-Angled Triangles (2016)",
+				"frontcover_path": "Book_cover_6915747kX.jpg",
+				"count_best_seller": "15",
+				"featured": "0",
+				"product_key": "com.irite.book_157",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_6915747kX_file.pdf",
+				"sample_copy_path": "Sample_6915747kX_file.pdf"
+			}, {
+				"book_id": "155",
+				"book_name": "1.5 Measurement (2016)",
+				"frontcover_path": "Book_cover_7015566An.jpg",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "com.irite.book_155",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_7015566An_file.pdf",
+				"sample_copy_path": "Sample_7015566An_file.pdf"
+			}, {
+				"book_id": "164",
+				"book_name": "Year 11 EAS Mathematics Workbook (2016)",
+				"frontcover_path": "Book_cover_6016417Ej.jpg",
+				"count_best_seller": "15",
+				"featured": "0",
+				"product_key": "com.irite.book_164",
+				"price": "$ 9.99",
+				"pdf_path": "book_name_6016417Ej_file.pdf",
+				"sample_copy_path": "Sample_6016417Ej_file.pdf"
+			}, {
+				"book_id": "153",
+				"book_name": "1.3 Relationships between Tables, Eqs. (2016)",
+				"frontcover_path": "Book_cover_3215394AJ.jpg",
+				"count_best_seller": "12",
+				"featured": "0",
+				"product_key": "com.irite.book_153",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3215394AJ_file.pdf",
+				"sample_copy_path": "Sample_3215394AJ_file.pdf"
+			}, {
+				"book_id": "162",
+				"book_name": "1.12 Chance and Data (2016)",
+				"frontcover_path": "Book_cover_2116239xN.jpg",
+				"count_best_seller": "11",
+				"featured": "0",
+				"product_key": "com.irite.book_162",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_2116239xN_file.pdf",
+				"sample_copy_path": "Sample_2116239xN_file.pdf"
+			}]
+		}, {
+			"cat_id": "45",
+			"cat_name": "Year 12",
+			"icon50": "category_pics45.jpg",
+			"cat_timestamp": "1453271857",
+			"books": [{
+				"book_id": "216",
+				"book_name": "2.4 Trig Relationships (2017)",
+				"frontcover_path": "Book_cover_2221614eC.4_Front",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "com.irite.book_216",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_2221614eC_file.pdf",
+				"sample_copy_path": "Sample_2221614eC_file.pdf"
+			}, {
+				"book_id": "223",
+				"book_name": "2.14 Systems of Equations (2017)",
+				"frontcover_path": "Book_cover_6222382Kw.14_Front",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "com.irite.book_223",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_6222382Kw_file.pdf",
+				"sample_copy_path": "Sample_6222382Kw_file.pdf"
+			}, {
+				"book_id": "213",
+				"book_name": "2.6 Algebraic Methods (2017)",
+				"frontcover_path": "Book_cover_9721332Sg.6_Front",
+				"count_best_seller": "4",
+				"featured": "0",
+				"product_key": "com.irite.book_213",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9721332Sg_file.pdf",
+				"sample_copy_path": "Sample_9721332Sg_file.pdf"
+			}, {
+				"book_id": "221",
+				"book_name": "2.12 Probability Methods (2017)",
+				"frontcover_path": "Book_cover_9722187bj.12_Front",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "com.irite.book_221",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9722187bj_file.pdf",
+				"sample_copy_path": "Sample_9722187bj_file.pdf"
+			}, {
+				"book_id": "219",
+				"book_name": "2.8 Design a Questionnaire (2017)",
+				"frontcover_path": "Book_cover_9921986BL.8_Front",
+				"count_best_seller": "2",
+				"featured": "0",
+				"product_key": "com.irite.book_219",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9921986BL_file.pdf",
+				"sample_copy_path": "Sample_9921986BL_file.pdf"
+			}, {
+				"book_id": "226",
+				"book_name": "2.10 Statistical Experiments (2017)",
+				"frontcover_path": "Book_cover_3522684kw.10_Front",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "com.irite.book_226",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3522684kw_file.pdf",
+				"sample_copy_path": "Sample_3522684kw_file.pdf"
+			}, {
+				"book_id": "217",
+				"book_name": "2.5 Networks (2017)",
+				"frontcover_path": "Book_cover_9921770eW.5_Cover_Front",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "com.irite.book_217",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9921770eW_file.pdf",
+				"sample_copy_path": "Sample_9921770eW_file.pdf"
+			}, {
+				"book_id": "224",
+				"book_name": "Year 12 EAS Mathematics Workbook (2017)",
+				"frontcover_path": "Book_cover_5822414wt.jpg",
+				"count_best_seller": "8",
+				"featured": "0",
+				"product_key": "com.irite.book_224",
+				"price": "$ 9.99",
+				"pdf_path": "book_name_5822414wt_file.pdf",
+				"sample_copy_path": "Sample_5822414wt_file.pdf"
+			}, {
+				"book_id": "215",
+				"book_name": "2.1 Coordinate Geometry (2017)",
+				"frontcover_path": "Book_cover_1521590ob.1_Cover_Front",
+				"count_best_seller": "2",
+				"featured": "0",
+				"product_key": "com.irite.book_215",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1521590ob_file.pdf",
+				"sample_copy_path": "Sample_1521590ob_file.pdf"
+			}, {
+				"book_id": "222",
+				"book_name": "2.13 Simulations (2017)",
+				"frontcover_path": "Book_cover_5422234Qz.13_Front",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.irite.book_222",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_5422234Qz_file.pdf",
+				"sample_copy_path": "Sample_5422234Qz_file.pdf"
+			}, {
+				"book_id": "212",
+				"book_name": "2.2 Graphical Models (2017)",
+				"frontcover_path": "Book_cover_4621210gQ.2_Front",
+				"count_best_seller": "8",
+				"featured": "0",
+				"product_key": "com.irite.book_212",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_4621210gQ_file.pdf",
+				"sample_copy_path": "Sample_4621210gQ_file.pdf"
+			}, {
+				"book_id": "220",
+				"book_name": "2.9 Statistical Inference (2017)",
+				"frontcover_path": "Book_cover_3222027qA.9_Cover_Front",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_220",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3222027qA_file.pdf",
+				"sample_copy_path": "Sample_3222027qA_file.pdf"
+			}, {
+				"book_id": "227",
+				"book_name": "2.11 Statistical Reports (2017)",
+				"frontcover_path": "Book_cover_8522763xj.11_Front",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "com.irite.book_227",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_8522763xj_file.pdf",
+				"sample_copy_path": "Sample_8522763xj_file.pdf"
+			}, {
+				"book_id": "218",
+				"book_name": "2.7 Calculus Methods (2017)",
+				"frontcover_path": "Book_cover_9121824Om.7_Front",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "com.irite.book_218",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9121824Om_file.pdf",
+				"sample_copy_path": "Sample_9121824Om_file.pdf"
+			}, {
+				"book_id": "225",
+				"book_name": "2.3 Sequences and Series (2017)",
+				"frontcover_path": "Book_cover_3022579mx.3_Front",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "com.irite.book_225",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3022579mx_file.pdf",
+				"sample_copy_path": "Sample_3022579mx_file.pdf"
+			}]
+		}, {
+			"cat_id": "46",
+			"cat_name": "Year 13",
+			"icon50": "category_pics46.png",
+			"cat_timestamp": "1453271870",
+			"books": [{
+				"book_id": "264",
+				"book_name": "3.14 Probability Distributions (2018)",
+				"frontcover_path": "Book_cover_3026415ic.14_Front",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_264",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3026415ic_file.pdf",
+				"sample_copy_path": "Sample_3026415ic_file.pdf"
+			}, {
+				"book_id": "185",
+				"book_name": "3.15 Systems of Equations (2016)",
+				"frontcover_path": "Book_cover_3318580Rh.jpg",
+				"count_best_seller": "11",
+				"featured": "0",
+				"product_key": "com.irite.book_185",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3318580Rh_file.pdf",
+				"sample_copy_path": "Sample_3318580Rh_file.pdf"
+			}, {
+				"book_id": "176",
+				"book_name": "3.2 Linear Programming (2016)",
+				"frontcover_path": "Book_cover_1717671WP.jpg",
+				"count_best_seller": "12",
+				"featured": "0",
+				"product_key": "com.irite.book_176",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1717671WP_file.pdf",
+				"sample_copy_path": "Sample_1717671WP_file.pdf"
+			}, {
+				"book_id": "262",
+				"book_name": "3.12 Statistical Reports (2018)",
+				"frontcover_path": "Book_cover_3426263PQ.12_Front",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_262",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3426263PQ_file.pdf",
+				"sample_copy_path": "Sample_3426263PQ_file.pdf"
+			}, {
+				"book_id": "260",
+				"book_name": "3.3 Trigonometry (2018)",
+				"frontcover_path": "Book_cover_9926079iq.3_Front",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_260",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9926079iq_file.pdf",
+				"sample_copy_path": "Sample_9926079iq_file.pdf"
+			}, {
+				"book_id": "181",
+				"book_name": "3.10 Formal Inference (2016)",
+				"frontcover_path": "Book_cover_8518145lc.jpg",
+				"count_best_seller": "11",
+				"featured": "0",
+				"product_key": "com.irite.book_181",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_8518145lc_file.pdf",
+				"sample_copy_path": "Sample_8518145lc_file.pdf"
+			}, {
+				"book_id": "258",
+				"book_name": "Year 13 EAS Calculus Workbook (2018)",
+				"frontcover_path": "Book_cover_9425837Vd.jpg",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_258",
+				"price": "$ 9.99",
+				"pdf_path": "book_name_9425837Vd_file.pdf",
+				"sample_copy_path": "Sample_9425837Vd_file.pdf"
+			}, {
+				"book_id": "179",
+				"book_name": "3.8 Time Series (2016)",
+				"frontcover_path": "Book_cover_7017972WF.jpg",
+				"count_best_seller": "12",
+				"featured": "0",
+				"product_key": "com.irite.book_179",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_7017972WF_file.pdf",
+				"sample_copy_path": "Sample_7017972WF_file.pdf"
+			}, {
+				"book_id": "265",
+				"book_name": "Year 13 EAS Statistics Workbook (2018)",
+				"frontcover_path": "Book_cover_2126540hI.jpg",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_265",
+				"price": "$ 9.99",
+				"pdf_path": "book_name_2126540hI_file.pdf",
+				"sample_copy_path": "Sample_2126540hI_file.pdf"
+			}, {
+				"book_id": "110",
+				"book_name": "3.11 Statistical Experiments (67 pages)",
+				"frontcover_path": "Book_cover_110.jpg",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "NUL137",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_110_file.pdf",
+				"sample_copy_path": "Sample_110_file.pdf"
+			}, {
+				"book_id": "256",
+				"book_name": "3.5 Complex Numbers (2018)",
+				"frontcover_path": "Book_cover_9125626Or.5_Front",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_256",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9125626Or_file.pdf",
+				"sample_copy_path": "Sample_9125626Or_file.pdf"
+			}, {
+				"book_id": "263",
+				"book_name": "3.13 Probability (2018)",
+				"frontcover_path": "Book_cover_1226384jn.13_Front",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_263",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1226384jn_file.pdf",
+				"sample_copy_path": "Sample_1226384jn_file.pdf"
+			}, {
+				"book_id": "261",
+				"book_name": "3.1 Conic Sections (2018)",
+				"frontcover_path": "Book_cover_3026113DY.1_Front",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_261",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3026113DY_file.pdf",
+				"sample_copy_path": "Sample_3026113DY_file.pdf"
+			}, {
+				"book_id": "259",
+				"book_name": "3.7 Integration (2018)",
+				"frontcover_path": "Book_cover_8525961Zs.7_Front",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "com.irite.book_259",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_8525961Zs_file.pdf",
+				"sample_copy_path": "Sample_8525961Zs_file.pdf"
+			}, {
+				"book_id": "180",
+				"book_name": "3.9 Bivariate Data (2016)",
+				"frontcover_path": "Book_cover_5018080HU.jpg",
+				"count_best_seller": "16",
+				"featured": "0",
+				"product_key": "com.irite.book_180",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_5018080HU_file.pdf",
+				"sample_copy_path": "Sample_5018080HU_file.pdf"
+			}, {
+				"book_id": "178",
+				"book_name": "3.4 Critical Path Analysis (2016)",
+				"frontcover_path": "Book_cover_2417812gO.jpg",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "com.irite.book_178",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_2417812gO_file.pdf",
+				"sample_copy_path": "Sample_2417812gO_file.pdf"
+			}, {
+				"book_id": "257",
+				"book_name": "3.6 Differentiation (2018)",
+				"frontcover_path": "Book_cover_3425739ne.6_Front",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_257",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_3425739ne_file.pdf",
+				"sample_copy_path": "Sample_3425739ne_file.pdf"
+			}]
+		}, {
+			"cat_id": "48",
+			"cat_name": "Year 0 - 3",
+			"icon50": "category_pics48.jpg",
+			"cat_timestamp": "1480828658",
+			"books": [{
+				"book_id": "116",
+				"book_name": "Early Numeracy Book 1 (98 pages)",
+				"frontcover_path": "Book_cover_116.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL146",
+				"price": "$ 8.99",
+				"pdf_path": "book_name_116_file.pdf",
+				"sample_copy_path": "Sample_116_file.pdf"
+			}, {
+				"book_id": "124",
+				"book_name": "Early Numeracy Book 4 (130 pages)",
+				"frontcover_path": "Book_cover_124.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL149",
+				"price": "$ 8.99",
+				"pdf_path": "book_name_124_file.pdf",
+				"sample_copy_path": "Sample_124_file.pdf"
+			}, {
+				"book_id": "122",
+				"book_name": "Early Literacy Book 1 (106 pages)",
+				"frontcover_path": "Book_cover_122.jpg",
+				"count_best_seller": "2",
+				"featured": "0",
+				"product_key": "NUL145",
+				"price": "$ 8.99",
+				"pdf_path": "book_name_122_file.pdf",
+				"sample_copy_path": "Sample_122_file.pdf"
+			}, {
+				"book_id": "117",
+				"book_name": "Early Numeracy Book 2 (106 pages)",
+				"frontcover_path": "Book_cover_117.jpg",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "NUL147",
+				"price": "$ 8.99",
+				"pdf_path": "book_name_117_file.pdf",
+				"sample_copy_path": "Sample_117_file.pdf"
+			}, {
+				"book_id": "123",
+				"book_name": "Early Numeracy Book 3 (114 pages)",
+				"frontcover_path": "Book_cover_123.jpg",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "NUL148",
+				"price": "$ 8.99",
+				"pdf_path": "book_name_123_file.pdf",
+				"sample_copy_path": "Sample_123_file.pdf"
+			}]
+		}, {
+			"cat_id": "67",
+			"cat_name": "NuLake Past Editions",
+			"icon50": "category_pics606794hZ.jpg",
+			"cat_timestamp": "1455147051",
+			"books": [{
+				"book_id": "169",
+				"book_name": "2.6 Algebraic Methods (2016)",
+				"frontcover_path": "Book_cover_3916951OB.6_Front_Old",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "com.irite.book_169",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_6716914we_file.pdf",
+				"sample_copy_path": "Sample_6716914we_file.pdf"
+			}, {
+				"book_id": "109",
+				"book_name": "3.10 Formal Inference (73 pages)",
+				"frontcover_path": "Book_cover_6610929mT.jpg",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "NUL136",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_109_file.pdf",
+				"sample_copy_path": "Sample_109_file.pdf"
+			}, {
+				"book_id": "93",
+				"book_name": "2.8 Design a Questionnaire (49 pages)",
+				"frontcover_path": "Book_cover_409355cU.8_Front_Old_2016",
+				"count_best_seller": "4",
+				"featured": "0",
+				"product_key": "NUL120",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_93_file.pdf",
+				"sample_copy_path": "Sample_93_file.pdf"
+			}, {
+				"book_id": "118",
+				"book_name": "1.10 Multivariate Data (73 pages)",
+				"frontcover_path": "Book_cover_2411836xK.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "NUL109",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_118_file.pdf",
+				"sample_copy_path": "Sample_118_file.pdf"
+			}, {
+				"book_id": "84",
+				"book_name": "1.8 Geometric Representations (65 pages)",
+				"frontcover_path": "Book_cover_158436pe.jpg",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "NUL107",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_84_file.pdf",
+				"sample_copy_path": "Sample_84_file.pdf"
+			}, {
+				"book_id": "195",
+				"book_name": "Year 13 EAS Statistics Workbook (2016)",
+				"frontcover_path": "Book_cover_6719549yG.jpg",
+				"count_best_seller": "16",
+				"featured": "0",
+				"product_key": "com.irite.book_195",
+				"price": "$ 9.99",
+				"pdf_path": "book_name_3419580Ai_file.pdf",
+				"sample_copy_path": "Sample_3419580Ai_file.pdf"
+			}, {
+				"book_id": "132",
+				"book_name": "Year 9 Mathematics Workbook",
+				"frontcover_path": "Book_cover_1613287Ro.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "NUL150",
+				"price": "$ 14.99",
+				"pdf_path": "book_name_132_file.pdf",
+				"sample_copy_path": "Sample_132_file.pdf"
+			}, {
+				"book_id": "100",
+				"book_name": "3.1 Conic Sections (67 pages)",
+				"frontcover_path": "Book_cover_8510013sZ.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "NUL127",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_100_file.pdf",
+				"sample_copy_path": "Sample_100_file.pdf"
+			}, {
+				"book_id": "107",
+				"book_name": "3.8 Time Series (73 pages)",
+				"frontcover_path": "Book_cover_7010733oG.jpg",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "NUL134",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_107_file.pdf",
+				"sample_copy_path": "Sample_107_file.pdf"
+			}, {
+				"book_id": "91",
+				"book_name": "2.6 Algebraic Methods (81 pages)",
+				"frontcover_path": "Book_cover_569146rP.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "NUL118",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_91_file.pdf",
+				"sample_copy_path": "Sample_91_file.pdf"
+			}, {
+				"book_id": "183",
+				"book_name": "3.13 Probability (2016)",
+				"frontcover_path": "Book_cover_1018398kn.13_Old_2016",
+				"count_best_seller": "12",
+				"featured": "0",
+				"product_key": "com.irite.book_183",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_6618350qN_file.pdf",
+				"sample_copy_path": "Sample_6618350qN_file.pdf"
+			}, {
+				"book_id": "167",
+				"book_name": "2.4 Trig Relationships (2016)",
+				"frontcover_path": "Book_cover_1616715mw.4_Front_Old_2016",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "com.irite.book_167",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_6216755wk_file.pdf",
+				"sample_copy_path": "Sample_6216755wk_file.pdf"
+			}, {
+				"book_id": "193",
+				"book_name": "2.10 Statistical Experiments (2016)",
+				"frontcover_path": "Book_cover_5719321MW.10_Front_Old_2016",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_193",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_5519358uo_file.pdf",
+				"sample_copy_path": "Sample_5519358uo_file.pdf"
+			}, {
+				"book_id": "174",
+				"book_name": "Year 12 EAS Mathematics Workbook (2016)",
+				"frontcover_path": "Book_cover_9317483oV.jpg",
+				"count_best_seller": "11",
+				"featured": "0",
+				"product_key": "com.irite.book_174",
+				"price": "$ 9.99",
+				"pdf_path": "book_name_2317478HF_file.pdf",
+				"sample_copy_path": "Sample_2317478HF_file.pdf"
+			}, {
+				"book_id": "98",
+				"book_name": "2.13 Simulations (65 pages)",
+				"frontcover_path": "Book_cover_899864uC.13_Front_Old_2016",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "NUL125",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_98_file.pdf",
+				"sample_copy_path": "Sample_98_file.pdf"
+			}, {
+				"book_id": "82",
+				"book_name": "1.6 Geometric Reasoning (73 pages)",
+				"frontcover_path": "Book_cover_418222OP.jpg",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "NUL105",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_82_file.pdf",
+				"sample_copy_path": "Sample_82_file.pdf"
+			}, {
+				"book_id": "105",
+				"book_name": "3.6 Differentiation (105 pages)",
+				"frontcover_path": "Book_cover_3510542cp.6_Old_2016",
+				"count_best_seller": "11",
+				"featured": "0",
+				"product_key": "NUL132",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_105_file.pdf",
+				"sample_copy_path": "Sample_105_file.pdf"
+			}, {
+				"book_id": "89",
+				"book_name": "2.4 Trig Relationships (49 pages)",
+				"frontcover_path": "Book_cover_268989xo.jpg",
+				"count_best_seller": "8",
+				"featured": "0",
+				"product_key": "NUL116",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_89_file.pdf",
+				"sample_copy_path": "Sample_89_file.pdf"
+			}, {
+				"book_id": "114",
+				"book_name": "3.15 Systems of Equations (49 pages)",
+				"frontcover_path": "Book_cover_6111487eI.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL141",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_114_file.pdf",
+				"sample_copy_path": "Sample_114_file.pdf"
+			}, {
+				"book_id": "165",
+				"book_name": "2.1 Coordinate Geometry (2016)",
+				"frontcover_path": "Book_cover_1116555lP.1_Front_Old_2016",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.irite.book_165",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_8416561Uf_file.pdf",
+				"sample_copy_path": "Sample_8416561Uf_file.pdf"
+			}, {
+				"book_id": "172",
+				"book_name": "2.12 Probability Methods (2016)",
+				"frontcover_path": "Book_cover_9017220Il.12_Front_Old_2016",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_172",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1017298Kj_file.pdf",
+				"sample_copy_path": "Sample_1017298Kj_file.pdf"
+			}, {
+				"book_id": "96",
+				"book_name": "2.11 Statistical Reports (49 pages)",
+				"frontcover_path": "Book_cover_849649Ph.11_Front_Old_2016",
+				"count_best_seller": "8",
+				"featured": "0",
+				"product_key": "NUL123",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_96_file.pdf",
+				"sample_copy_path": "Sample_96_file.pdf"
+			}, {
+				"book_id": "80",
+				"book_name": "1.4 Linear Algebra (65 pages)",
+				"frontcover_path": "Book_cover_338070qr.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "NUL103",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_80_file.pdf",
+				"sample_copy_path": "Sample_80_file.pdf"
+			}, {
+				"book_id": "103",
+				"book_name": "3.4 Critical Path Analysis (73 pages)",
+				"frontcover_path": "Book_cover_7810318Cx.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL130",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_103_file.pdf",
+				"sample_copy_path": "Sample_103_file.pdf"
+			}, {
+				"book_id": "87",
+				"book_name": "2.2 Graphical Models (81 pages)",
+				"frontcover_path": "Book_cover_618738Db.jpg",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "NUL114",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_87_file.pdf",
+				"sample_copy_path": "Sample_87_file.pdf"
+			}, {
+				"book_id": "112",
+				"book_name": "3.13 Probability (65 pages)",
+				"frontcover_path": "Book_cover_2411214Ad.jpg",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "NUL139",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_112_file.pdf",
+				"sample_copy_path": "Sample_112_file.pdf"
+			}, {
+				"book_id": "170",
+				"book_name": "2.7 Calculus (2016)",
+				"frontcover_path": "Book_cover_3817093eQ.7_Front_Old_2016",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.irite.book_170",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_7617092OH_file.pdf",
+				"sample_copy_path": "Sample_7617092OH_file.pdf"
+			}, {
+				"book_id": "94",
+				"book_name": "2.9 Statistical Inference (65 pages)",
+				"frontcover_path": "Book_cover_939498kh.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL121",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_94_file.pdf",
+				"sample_copy_path": "Sample_94_file.pdf"
+			}, {
+				"book_id": "78",
+				"book_name": "1.2 Algebraic Methods (81 pages)",
+				"frontcover_path": "Book_cover_407854wl.jpg",
+				"count_best_seller": "15",
+				"featured": "0",
+				"product_key": "NUL101",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_78_file.pdf",
+				"sample_copy_path": "Sample_78_file.pdf"
+			}, {
+				"book_id": "186",
+				"book_name": "Year 13 EAS Calculus Workbook (2016)",
+				"frontcover_path": "Book_cover_2318635RU.jpg",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "com.irite.book_186",
+				"price": "$ 9.99",
+				"pdf_path": "book_name_7018650wN_file.pdf",
+				"sample_copy_path": "Sample_7018650wN_file.pdf"
+			}, {
+				"book_id": "119",
+				"book_name": "1.12 Chance and Data (81 pages)",
+				"frontcover_path": "Book_cover_2511931Zz.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "NUL111",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_119_file.pdf",
+				"sample_copy_path": "Sample_119_file.pdf"
+			}, {
+				"book_id": "85",
+				"book_name": "1.9 Transformation Geometry (49 pages)",
+				"frontcover_path": "Book_cover_168560vG.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL108",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_85_file.pdf",
+				"sample_copy_path": "Sample_85_file.pdf"
+			}, {
+				"book_id": "196",
+				"book_name": "2.3 Sequences and Series (2016)",
+				"frontcover_path": "Book_cover_3219653kZ.3_Front_Old_2016",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "com.irite.book_196",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_2519655PI_file.pdf",
+				"sample_copy_path": "Sample_2519655PI_file.pdf"
+			}, {
+				"book_id": "133",
+				"book_name": "Year 10 Mathematics Workbook",
+				"frontcover_path": "Book_cover_8513352Nj.jpg",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "NUL151",
+				"price": "$ 14.99",
+				"pdf_path": "book_name_133_file.pdf",
+				"sample_copy_path": "Sample_133_file.pdf"
+			}, {
+				"book_id": "177",
+				"book_name": "3.3 Trigonometry (2016)",
+				"frontcover_path": "Book_cover_9717753iw.3_Old_2016",
+				"count_best_seller": "12",
+				"featured": "0",
+				"product_key": "com.irite.book_177",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_9517722ui_file.pdf",
+				"sample_copy_path": "Sample_9517722ui_file.pdf"
+			}, {
+				"book_id": "101",
+				"book_name": "3.2 Linear Programming (49 pages)",
+				"frontcover_path": "Book_cover_3910156al.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL128",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_101_file.pdf",
+				"sample_copy_path": "Sample_101_file.pdf"
+			}, {
+				"book_id": "108",
+				"book_name": "3.9 Bivariate Data (67 pages)",
+				"frontcover_path": "Book_cover_5110828Vv.jpg",
+				"count_best_seller": "2",
+				"featured": "0",
+				"product_key": "NUL135",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_108_file.pdf",
+				"sample_copy_path": "Sample_108_file.pdf"
+			}, {
+				"book_id": "92",
+				"book_name": "2.7 Calculus (65 pages)",
+				"frontcover_path": "Book_cover_209231TA.jpg",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "NUL119",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_92_file.pdf",
+				"sample_copy_path": "Sample_92_file.pdf"
+			}, {
+				"book_id": "76",
+				"book_name": "1.1 Numeric Reasoning (65 pages)",
+				"frontcover_path": "Book_cover_477692ke.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "NUL100",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_76_file.pdf",
+				"sample_copy_path": "Sample_76_file.pdf"
+			}, {
+				"book_id": "184",
+				"book_name": "3.14 Probability Distributions (2016)",
+				"frontcover_path": "Book_cover_8518480eO.14_Old_2016",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "com.irite.book_184",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_4118466ZV_file.pdf",
+				"sample_copy_path": "Sample_4118466ZV_file.pdf"
+			}, {
+				"book_id": "168",
+				"book_name": "2.5 Networks (2016)",
+				"frontcover_path": "Book_cover_5016853Kw.5_Front_Old_2016",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_168",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_2116843ir_file.pdf",
+				"sample_copy_path": "Sample_2116843ir_file.pdf"
+			}, {
+				"book_id": "83",
+				"book_name": "1.7 Right-Angled Triangles (49 Pages)",
+				"frontcover_path": "Book_cover_118368HB.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL106",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_83_file.pdf",
+				"sample_copy_path": "Sample_83_file.pdf"
+			}, {
+				"book_id": "194",
+				"book_name": "3.5 Complex Numbers (2016)",
+				"frontcover_path": "Book_cover_7819462Jx.5_Old_2016",
+				"count_best_seller": "4",
+				"featured": "0",
+				"product_key": "com.irite.book_194",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_2319431AG_file.pdf",
+				"sample_copy_path": "Sample_2319431AG_file.pdf"
+			}, {
+				"book_id": "131",
+				"book_name": "IAS 1.11 Bivariate Data",
+				"frontcover_path": "Book_cover_5913159LB.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "NUL110",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_131_file.pdf",
+				"sample_copy_path": "Sample_131_file.pdf"
+			}, {
+				"book_id": "175",
+				"book_name": "3.1 Conic Sections (2016)",
+				"frontcover_path": "Book_cover_3717531Ll.1_Old_2016",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "com.irite.book_175",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_2617520EY_file.pdf",
+				"sample_copy_path": "Sample_2617520EY_file.pdf"
+			}, {
+				"book_id": "99",
+				"book_name": "2.14 Systems of Equations (57 pages)",
+				"frontcover_path": "Book_cover_169914JG.jpg",
+				"count_best_seller": "4",
+				"featured": "0",
+				"product_key": "NUL126",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_99_file.pdf",
+				"sample_copy_path": "Sample_99_file.pdf"
+			}, {
+				"book_id": "106",
+				"book_name": "3.7 Integration (99 pages)",
+				"frontcover_path": "Book_cover_2510643fl.7_Old_2016",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "NUL133",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_106_file.pdf",
+				"sample_copy_path": "Sample_106_file.pdf"
+			}, {
+				"book_id": "90",
+				"book_name": "2.5 Networks (57 pages)",
+				"frontcover_path": "Book_cover_319036xD.jpg",
+				"count_best_seller": "9",
+				"featured": "0",
+				"product_key": "NUL117",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_90_file.pdf",
+				"sample_copy_path": "Sample_90_file.pdf"
+			}, {
+				"book_id": "182",
+				"book_name": "3.12 Statistical Reports (2016)",
+				"frontcover_path": "Book_cover_7918248oK.12_Old_2016",
+				"count_best_seller": "5",
+				"featured": "0",
+				"product_key": "com.irite.book_182",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_2418276FK_file.pdf",
+				"sample_copy_path": "Sample_2418276FK_file.pdf"
+			}, {
+				"book_id": "166",
+				"book_name": "2.2 Graphical Models (2016)",
+				"frontcover_path": "Book_cover_3916696mI.2_Front_Old",
+				"count_best_seller": "7",
+				"featured": "0",
+				"product_key": "com.irite.book_166",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1916628CR_file.pdf",
+				"sample_copy_path": "Sample_1916628CR_file.pdf"
+			}, {
+				"book_id": "173",
+				"book_name": "2.14 Systems of Equations (2016)",
+				"frontcover_path": "Book_cover_1617390ub.14_Front_Old_2016",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "com.irite.book_173",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1717390hW_file.pdf",
+				"sample_copy_path": "Sample_1717390hW_file.pdf"
+			}, {
+				"book_id": "97",
+				"book_name": "2.12 Probability Methods (67 pages)",
+				"frontcover_path": "Book_cover_659768Ob.jpg",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "NUL124",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_97_file.pdf",
+				"sample_copy_path": "Sample_97_file.pdf"
+			}, {
+				"book_id": "81",
+				"book_name": "1.5 Measurement (65 pages)",
+				"frontcover_path": "Book_cover_368198hi.jpg",
+				"count_best_seller": "2",
+				"featured": "0",
+				"product_key": "NUL104",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_81_file.pdf",
+				"sample_copy_path": "Sample_81_file.pdf"
+			}, {
+				"book_id": "104",
+				"book_name": "3.5 Complex Numbers (89 pages)",
+				"frontcover_path": "Book_cover_6410446KJ.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "NUL131",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_104_file.pdf",
+				"sample_copy_path": "Sample_104_file.pdf"
+			}, {
+				"book_id": "88",
+				"book_name": "2.3 Sequences and Series (65 pages)",
+				"frontcover_path": "Book_cover_548868Fq.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL115",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_88_file.pdf",
+				"sample_copy_path": "Sample_88_file.pdf"
+			}, {
+				"book_id": "113",
+				"book_name": "3.14 Probability Distributions (75 pages)",
+				"frontcover_path": "Book_cover_5811388yl.jpg",
+				"count_best_seller": "10",
+				"featured": "0",
+				"product_key": "NUL140",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_113_file.pdf",
+				"sample_copy_path": "Sample_113_file.pdf"
+			}, {
+				"book_id": "171",
+				"book_name": "2.9 Statistical Inference (2016)",
+				"frontcover_path": "Book_cover_6817164iQ.9_Front_Old_2016",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "com.irite.book_171",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_1617199tc_file.pdf",
+				"sample_copy_path": "Sample_1617199tc_file.pdf"
+			}, {
+				"book_id": "111",
+				"book_name": "3.12 Statistical Reports (73 pages)",
+				"frontcover_path": "Book_cover_2611154vH.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "NUL138",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_111_file.pdf",
+				"sample_copy_path": "Sample_111_file.pdf"
+			}, {
+				"book_id": "95",
+				"book_name": "2.10 Statistical Experiments (57 pages)",
+				"frontcover_path": "Book_cover_889596ah.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL122",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_95_file.pdf",
+				"sample_copy_path": "Sample_95_file.pdf"
+			}, {
+				"book_id": "79",
+				"book_name": "1.3 Relationships between Tables, Eqs. (99 pages)",
+				"frontcover_path": "Book_cover_417964Bb.jpg",
+				"count_best_seller": "8",
+				"featured": "0",
+				"product_key": "NUL102",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_79_file.pdf",
+				"sample_copy_path": "Sample_79_file.pdf"
+			}, {
+				"book_id": "120",
+				"book_name": "1.13 Elements of Chance (49 pages)",
+				"frontcover_path": "Book_cover_8212076Sm.jpg",
+				"count_best_seller": "2",
+				"featured": "0",
+				"product_key": "NUL112",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_120_file.pdf",
+				"sample_copy_path": "Sample_120_file.pdf"
+			}, {
+				"book_id": "102",
+				"book_name": "3.3 Trigonometry (65 pages)",
+				"frontcover_path": "Book_cover_7210215sl.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "NUL129",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_102_file.pdf",
+				"sample_copy_path": "Sample_102_file.pdf"
+			}, {
+				"book_id": "86",
+				"book_name": "2.1 Coordinate Geometry (49 pages)",
+				"frontcover_path": "Book_cover_978640yn.jpg",
+				"count_best_seller": "6",
+				"featured": "0",
+				"product_key": "NUL113",
+				"price": "$ 4.49",
+				"pdf_path": "book_name_86_file.pdf",
+				"sample_copy_path": "Sample_86_file.pdf"
+			}]
+		}]
+	}, {
+		"pub_id": "4",
+		"pub_name": "Sigma Publications",
+		"picon": "publisher_pics98461RU.jpg",
+		"pub_timestamp": "1480833575",
+		"category": [{
+			"cat_id": "42",
+			"cat_name": "Year 09",
+			"icon50": "category_pics42.jpg",
+			"cat_timestamp": "1480828414",
+			"books": [{
+				"book_id": "230",
+				"book_name": "Action English 7 â€“ 2nd Edition",
+				"frontcover_path": "Book_cover_9723040gC.jpg",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "com.irite.book_230",
+				"price": "$ 11.99",
+				"pdf_path": "book_name_9723040gC_file.pdf",
+				"sample_copy_path": "Sample_9723040gC_file.pdf"
+			}]
+		}, {
+			"cat_id": "43",
+			"cat_name": "Year 10",
+			"icon50": "category_pics43.jpg",
+			"cat_timestamp": "1480826845",
+			"books": [{
+				"book_id": "235",
+				"book_name": "Action English 8 â€“ 2nd Edition",
+				"frontcover_path": "Book_cover_7223583Ro.jpg",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "com.irite.book_235",
+				"price": "$ 11.99",
+				"pdf_path": "book_name_7223583Ro_file.pdf",
+				"sample_copy_path": "Sample_7223583Ro_file.pdf"
+			}]
+		}, {
+			"cat_id": "69",
+			"cat_name": "Year 07",
+			"icon50": "category_pics356958jX.jpg",
+			"cat_timestamp": "1480828491",
+			"books": [{
+				"book_id": "228",
+				"book_name": "Action English 5 â€“ 2nd Edition",
+				"frontcover_path": "Book_cover_8522890VR.jpg",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "com.irite.book_228",
+				"price": "$ 11.99",
+				"pdf_path": "book_name_8522890VR_file.pdf",
+				"sample_copy_path": "Sample_8522890VR_file.pdf"
+			}, {
+				"book_id": "237",
+				"book_name": "Dragon Maths 5 â€“ 2nd Edition",
+				"frontcover_path": "Book_cover_1923753RC.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "com.irite.book_237",
+				"price": "$ 11.99",
+				"pdf_path": "book_name_1923753RC_file.pdf",
+				"sample_copy_path": "Sample_1923753RC_file.pdf"
+			}]
+		}, {
+			"cat_id": "70",
+			"cat_name": "Year 06",
+			"icon50": "category_pics277073aJ.jpg",
+			"cat_timestamp": "1480828477",
+			"books": [{
+				"book_id": "236",
+				"book_name": "Dragon Maths 4 â€“ 2nd Edition",
+				"frontcover_path": "Book_cover_3123660Jg.jpg",
+				"count_best_seller": "3",
+				"featured": "0",
+				"product_key": "com.irite.book_236",
+				"price": "$ 11.99",
+				"pdf_path": "book_name_3123660Jg_file.pdf",
+				"sample_copy_path": "Sample_3123660Jg_file.pdf"
+			}]
+		}, {
+			"cat_id": "73",
+			"cat_name": "Year 08",
+			"icon50": "category_pics157382Uq.png",
+			"cat_timestamp": "1480828511",
+			"books": [{
+				"book_id": "229",
+				"book_name": "Action English 6 â€“ 2nd Edition",
+				"frontcover_path": "Book_cover_7522934pL.jpg",
+				"count_best_seller": "0",
+				"featured": "0",
+				"product_key": "com.irite.book_229",
+				"price": "$ 11.99",
+				"pdf_path": "book_name_7522934pL_file.pdf",
+				"sample_copy_path": "Sample_7522934pL_file.pdf"
+			}, {
+				"book_id": "238",
+				"book_name": "Dragon Maths 6 â€“ 3rd Edition ",
+				"frontcover_path": "Book_cover_3823889Qw.jpg",
+				"count_best_seller": "1",
+				"featured": "0",
+				"product_key": "com.irite.book_238",
+				"price": "$ 11.99",
+				"pdf_path": "book_name_3823889Qw_file.pdf",
+				"sample_copy_path": "Sample_3823889Qw_file.pdf"
+			}]
+		}]
+	}, {
+		"pub_id": "7",
+		"pub_name": "User Manuals",
+		"picon": "publisher_pics23777Wh.jpg",
+		"pub_timestamp": "1480834312",
+		"category": [{
+			"cat_id": "10",
+			"cat_name": "Users Guide",
+			"icon50": "category_pics631036gl.jpg",
+			"cat_timestamp": "1480879925",
+			"books": [{
+				"book_id": "187",
+				"book_name": "Users Guide iOS V2.0",
+				"frontcover_path": "Book_cover_8818793dn.jpg",
+				"count_best_seller": "15",
+				"featured": "0",
+				"product_key": "com.irite.book_187",
+				"price": "$ 0.00",
+				"pdf_path": "book_name_8818793dn_file.pdf",
+				"sample_copy_path": "Sample_8818793dn_file.pdf"
+			}]
+		}]
+	}],
+	"status": "1",
+	"timestamp": 1516099989,
+	"error": "0",
+	"current_version": "2.3",
+	"link": "https://itunes.apple.com/app/id910482389",
+	"force_update": "1"
+}
