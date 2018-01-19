@@ -3,4 +3,8 @@
     <string name="publishers">Publishers</string>
     <string name="categories">Categories</string>
     <string name="books">Books</string>
+    <string name="book_id">Book ID:</string>
+    <string name="best_seller">Best Seller:</string>
+    <string name="featured">Featured:</string>
+    <string name="price">Price:</string>
 </resources>

@@ -7,8 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import genora.example.com.breader.R
+import genora.example.com.breader.activity.BookDetailsActivity
 import genora.example.com.breader.model.Book
 import kotlinx.android.synthetic.main.books_item_layout.view.*
+import java.io.Serializable
 
 /**
  * Created by genora-sonia on 19/1/18.
@@ -38,9 +40,9 @@ class BooksAdapter(private val context: Context, private val booksList: List<Boo
         override fun onClick(v: View?) {
             val book: Book = booksList[adapterPosition]
             val context = v?.context
-            /*val intent = Intent(context, BooksActivity::class.java)
-            intent.putExtra("Category", category as Serializable)
-            context?.startActivity(intent)*/
+            val intent = Intent(context, BookDetailsActivity::class.java)
+            intent.putExtra("Book", book as Serializable)
+            context?.startActivity(intent)
         }
     }
 }
