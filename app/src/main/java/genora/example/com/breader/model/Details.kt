@@ -5,4 +5,4 @@ package genora.example.com.breader.model
  */
 data class Details(val status: Int, val timestamp: Long, val error: Int,
                    val current_version: Int, val link: String,
-                   val force_update: Int)
+                   val force_update: Int, val publisherList: ArrayList<Publisher>)

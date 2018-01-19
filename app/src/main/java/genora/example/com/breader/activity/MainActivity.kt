@@ -9,6 +9,7 @@ import genora.example.com.breader.adapter.PublisherAdapter
 import genora.example.com.breader.model.Book
 import genora.example.com.breader.model.Category
 import genora.example.com.breader.model.Publisher
+import genora.example.com.breader.network.RestClient
 import genora.example.com.breader.utils.Utils
 import kotlinx.android.synthetic.main.recycler_view_layout.*
 import org.json.JSONArray
@@ -33,6 +34,12 @@ class MainActivity : AppCompatActivity(), PublisherAdapter.PublisherCallBack {
         linearLayoutManager = LinearLayoutManager(this)
         recycler_view.layoutManager = linearLayoutManager
         recycler_view.adapter = publisherAdapter
+
+        fetchDetails()
+    }
+
+    private fun fetchDetails() {
+       // RestClient.getRestClientAPI().getPublishers().
     }
 
     private fun parseDetailsJSON(publishList: ArrayList<Publisher>): ArrayList<Publisher> {
