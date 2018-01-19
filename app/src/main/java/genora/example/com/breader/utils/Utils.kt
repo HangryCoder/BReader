@@ -9,6 +9,8 @@ class Utils {
 
     companion object {
 
+        const val IMG_EXTENSION = "http://www.genorainnovations.com/Test/img/"
+
         fun loadJSONFromAsset(context: Context): String {
             return context.assets.open("details_json.json").bufferedReader().use {
                 it.readText()

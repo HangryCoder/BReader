@@ -6,9 +6,11 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bumptech.glide.Glide
 import genora.example.com.breader.R
 import genora.example.com.breader.activity.BookDetailsActivity
 import genora.example.com.breader.model.Book
+import genora.example.com.breader.utils.Utils
 import kotlinx.android.synthetic.main.books_item_layout.view.*
 import java.io.Serializable
 
@@ -26,6 +28,8 @@ class BooksAdapter(private val context: Context, private val booksList: List<Boo
     override fun onBindViewHolder(holder: BooksHolder?, position: Int) {
         val books: Book = booksList[position]
         holder?.itemView?.book_name?.text = books.book_name
+        Glide.with(context).load(Utils.Companion.IMG_EXTENSION + books.book_img)
+                .into(holder?.itemView?.book_icon!!)
     }
 
     override fun getItemCount() = booksList.size

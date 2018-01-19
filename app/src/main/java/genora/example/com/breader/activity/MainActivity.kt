@@ -3,7 +3,6 @@ package genora.example.com.breader.activity
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import genora.example.com.breader.R
 import genora.example.com.breader.adapter.PublisherAdapter
 import genora.example.com.breader.model.Book
@@ -62,6 +61,7 @@ class MainActivity : AppCompatActivity() {
                                 booksJSONObject.getString("product_key"),
                                 booksJSONObject.getString("price"),
                                 booksJSONObject.getString("pdf_path"),
+                                booksJSONObject.getString("book_img"),
                                 booksJSONObject.getString("sample_copy_path"))
 
                         booksList.add(books)
