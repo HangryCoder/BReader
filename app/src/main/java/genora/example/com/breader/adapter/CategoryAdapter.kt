@@ -10,6 +10,7 @@ import genora.example.com.breader.R
 import genora.example.com.breader.activity.BooksActivity
 import genora.example.com.breader.model.Category
 import kotlinx.android.synthetic.main.category_item_layout.view.*
+import java.io.Serializable
 
 /**
  * Created by genora-sonia on 18/1/18.
@@ -31,7 +32,7 @@ class CategoryAdapter(private val context: Context, private val categoryList: Li
     override fun getItemCount() = categoryList.size
 
 
-    class CategoryHolder(itemView: View?) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
+    inner class CategoryHolder(itemView: View?) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
 
         private val view = itemView
 
@@ -40,8 +41,10 @@ class CategoryAdapter(private val context: Context, private val categoryList: Li
         }
 
         override fun onClick(v: View?) {
+            val category: Category = categoryList[adapterPosition]
             val context = v?.context
             val intent = Intent(context, BooksActivity::class.java)
+            intent.putExtra("Category", category as Serializable)
             context?.startActivity(intent)
         }
 

@@ -2,4 +2,5 @@
     <string name="app_name">BReader</string>
     <string name="publishers">Publishers</string>
     <string name="categories">Categories</string>
+    <string name="books">Books</string>
 </resources>
