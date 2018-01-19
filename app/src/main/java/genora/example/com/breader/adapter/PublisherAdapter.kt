@@ -17,7 +17,8 @@ import java.io.Serializable
 /**
  * Created by genora-sonia on 16/1/18.
  */
-class PublisherAdapter(private val context: Context, private var publisherList: List<Publisher>)
+class PublisherAdapter(private val context: Context, private var publisherList: List<Publisher>,
+                       private val publisherCallBack: PublisherCallBack)
     : RecyclerView.Adapter<PublisherAdapter.PublisherHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): PublisherHolder {
@@ -44,12 +45,12 @@ class PublisherAdapter(private val context: Context, private var publisherList: 
         }
 
         override fun onClick(v: View?) {
-            val publisher: Publisher = publisherList[adapterPosition]
-            val context = v?.context
-            val intent = Intent(context, CategoryActivity::class.java)
-            intent.putExtra("Publisher", publisher as Serializable)
-            context?.startActivity(intent)
+            publisherCallBack.onPublishItemClickListener(adapterPosition)
         }
 
+    }
+
+    interface PublisherCallBack {
+        fun onPublishItemClickListener(position: Int)
     }
 }

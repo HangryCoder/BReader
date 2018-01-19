@@ -1,5 +1,6 @@
 package genora.example.com.breader.activity
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
@@ -13,8 +14,9 @@ import kotlinx.android.synthetic.main.recycler_view_layout.*
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject
+import java.io.Serializable
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), PublisherAdapter.PublisherCallBack {
 
     private lateinit var linearLayoutManager: LinearLayoutManager
     private lateinit var publisherAdapter: PublisherAdapter
@@ -26,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         publisherList = parseDetailsJSON(publisherList)
 
-        publisherAdapter = PublisherAdapter(this, publisherList)
+        publisherAdapter = PublisherAdapter(this, publisherList, this)
 
         linearLayoutManager = LinearLayoutManager(this)
         recycler_view.layoutManager = linearLayoutManager
@@ -90,5 +92,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         return publishList
+    }
+
+    override fun onPublishItemClickListener(position: Int) {
+        val publisher: Publisher = publisherList[position]
+        val intent = Intent(applicationContext, CategoryActivity::class.java)
+        intent.putExtra("Publisher", publisher as Serializable)
+        startActivity(intent)
     }
 }
