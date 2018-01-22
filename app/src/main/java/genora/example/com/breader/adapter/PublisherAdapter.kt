@@ -36,6 +36,8 @@ class PublisherAdapter(private val context: Context, private var publisherList: 
 
     override fun getItemCount() = publisherList.size
 
+    fun setPublisherList(publisherList: List<Publisher>) = publisherList == publisherList
+
     inner class PublisherHolder(itemView: View?) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
 
         private var view = itemView

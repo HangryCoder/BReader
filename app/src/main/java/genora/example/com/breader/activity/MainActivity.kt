@@ -1,13 +1,17 @@
 package genora.example.com.breader.activity
 
+import android.app.ProgressDialog
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
+import android.util.Log
+import android.widget.Toast
 import genora.example.com.breader.R
 import genora.example.com.breader.adapter.PublisherAdapter
 import genora.example.com.breader.model.Book
 import genora.example.com.breader.model.Category
+import genora.example.com.breader.model.MainResponse
 import genora.example.com.breader.model.Publisher
 import genora.example.com.breader.network.RestClient
 import genora.example.com.breader.utils.Utils
@@ -15,6 +19,10 @@ import kotlinx.android.synthetic.main.recycler_view_layout.*
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import java.io.IOException
 import java.io.Serializable
 
 class MainActivity : AppCompatActivity(), PublisherAdapter.PublisherCallBack {
@@ -22,12 +30,13 @@ class MainActivity : AppCompatActivity(), PublisherAdapter.PublisherCallBack {
     private lateinit var linearLayoutManager: LinearLayoutManager
     private lateinit var publisherAdapter: PublisherAdapter
     private var publisherList: ArrayList<Publisher> = ArrayList()
+    private lateinit var progressDialog: ProgressDialog
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        publisherList = parseDetailsJSON(publisherList)
+        // publisherList = parseDetailsJSON(publisherList)
 
         publisherAdapter = PublisherAdapter(this, publisherList, this)
 
@@ -35,11 +44,35 @@ class MainActivity : AppCompatActivity(), PublisherAdapter.PublisherCallBack {
         recycler_view.layoutManager = linearLayoutManager
         recycler_view.adapter = publisherAdapter
 
+        progressDialog = ProgressDialog(this)
+        progressDialog.setCanceledOnTouchOutside(false)
+        progressDialog.setMessage("Loading, Please Wait")
+        progressDialog.show()
+
         fetchDetails()
     }
 
     private fun fetchDetails() {
-       // RestClient.getRestClientAPI().getPublishers().
+        RestClient.getRestClientAPI().getPublishers().enqueue(object : Callback<MainResponse> {
+
+            override fun onResponse(call: Call<MainResponse>?, response: Response<MainResponse>?) {
+                progressDialog.dismiss()
+                publisherList = response?.body()?.publisherList!!
+                Log.e("Response", "response - $publisherList")
+
+                publisherAdapter = PublisherAdapter(applicationContext, publisherList, this@MainActivity)
+                recycler_view.adapter = publisherAdapter
+            }
+
+            override fun onFailure(call: Call<MainResponse>?, t: Throwable?) {
+                progressDialog.dismiss()
+                Log.e("fetchDetails ", "onFailure " + (t?.localizedMessage))
+                if (t is IOException) {
+                    Toast.makeText(this@MainActivity, "No Internet Connection",
+                            Toast.LENGTH_SHORT).show()
+                }
+            }
+        })
     }
 
     private fun parseDetailsJSON(publishList: ArrayList<Publisher>): ArrayList<Publisher> {
